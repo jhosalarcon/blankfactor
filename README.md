@@ -8,14 +8,12 @@ This project contains an automated test suite using Cypress and Cucumber to vali
 
 The automation performs the following steps:
 
-1. Navigate to `https://blankfactor.com`
-2. Accept the cookie policy
-3. Navigate to **Industries > Retirement and Wealth**
-4. Scroll to the section titled `Powering innovation in retirement services`
-5. Hover over the **3rd tile** (`AI & Machine learning`) and extract the text
-6. Scroll to the bottom of the page and click the **"let's get started"** button
-7. Verify the URL and page title
-8. Print the title to the Cypress log and console
+1. Navigate to “http://blankfactor.com”. Accept our policy.
+2. Navigate to Industries and open the Retirement and Wealth section
+3. Scroll down until the section “Powering innovation in retirement services” and copy the text from the 3rd tile in the section (AI & Machine learning) by hovering it with the mouse.
+4. Scroll to the bottom of the page and click on the "Let's get started" button.
+5. Once the page is loaded, verify the page URL and the title.
+6. Print the text from the title.
 
 ---
 
@@ -51,7 +49,7 @@ blankfactor/
 2. Navigate into the project folder
 
 ```bash
-cd blankfactor-final-cypress-project
+cd blankfactor
 ```
 
 3. Install dependencies
